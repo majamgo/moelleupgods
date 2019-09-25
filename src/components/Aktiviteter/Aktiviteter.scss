@@ -1,0 +1,21 @@
+@import '../../scss/variabler';
+
+.aktivitetcontainer {
+    width: 960px;
+    height: auto;
+    margin: 30px auto 0;
+    text-align: left;
+}
+
+.aktivitetstxt {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 1020px) {
+    .aktivitetcontainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+.outro {
+    width: 960px;
+    min-height: 600px;
+    margin: 30px auto;
+}
+
+.kontakt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 600px;
+}
+
+@media screen and (max-width: 1020px) {
+    .outro {
+        width: 100%;
+    }
+    .kontakt {
+        flex-direction: column;
+        height: auto;
+    }
+}

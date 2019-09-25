@@ -1,0 +1,17 @@
+@import '../../../scss/variabler';
+
+.dkc {
+    width: 100%;
+    height: 200px;
+    text-align: left;
+
+    img {
+        width: 50%;
+    }
+
+    a {
+        text-decoration: none;
+        color: $col_lightgrey;
+        font-size: 18px;
+    }
+}

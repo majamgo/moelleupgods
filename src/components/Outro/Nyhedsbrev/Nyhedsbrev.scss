@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 500px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 45px;
+    background-color: white;
+}
+
+input {
+        padding: 5px;
+        height: 25px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        width: 90%;
+    }
+
+   @media screen and (max-width: 1020px) {
+       form {
+       width: 100%;
+       height: 450px;
+     }
+   }

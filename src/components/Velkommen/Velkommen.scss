@@ -1,0 +1,18 @@
+@import '../../scss/variabler';
+
+.main {
+    width: 100%;
+    min-width: 500px;
+}
+
+hr {
+    width: 960px;
+    border: 1px solid $col_lightgrey;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1020px) {
+    hr {
+    width: 95%;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../../../scss/variabler';
+
+.aktivitetsliste {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 20px auto 0;
+}
+
+.lille__aktivitet {
+    width: 300px;
+    height: 350px;
+    text-align: left;
+    line-height: 25px;
+
+    h3 {
+        margin: 10px auto;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    a {
+        color: $col_lightgrey;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .aktivitetsliste {
+        justify-content: space-around;
+    }
+}
